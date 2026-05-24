@@ -1,0 +1,135 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #F8FAFC;
+}
+
+.hero {
+
+    padding: 100px 60px;
+
+    background-color: #0F172A;
+
+    color: white;
+}
+
+.how-it-works {
+
+    padding: 100px 60px;
+
+    background-color: #F8FAFC;
+
+    text-align: center;
+}
+
+.how-it-works h2 {
+
+    font-size: 42px;
+
+    color: #0F172A;
+
+    margin-bottom: 20px;
+}
+
+.section-subtitle {
+
+    max-width: 700px;
+
+    margin: 0 auto 60px;
+
+    color: #475569;
+
+    line-height: 1.7;
+}
+
+.steps-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.step-card {
+
+    background: white;
+
+    padding: 40px;
+
+    width: 320px;
+
+    border-radius: 24px;
+
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+
+    transition: 0.3s ease;
+}
+
+.step-card:hover {
+
+    transform: translateY(-8px);
+}
+
+.step-number {
+
+    width: 60px;
+
+    height: 60px;
+
+    margin: 0 auto 25px;
+
+    background: linear-gradient(90deg, #0891B2, #22D3EE);
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 24px;
+
+    font-weight: 700;
+}
+
+.step-card h3 {
+
+    margin-bottom: 20px;
+
+    color: #0F172A;
+}
+
+.step-card p {
+
+    color: #475569;
+
+    line-height: 1.7;
+}
+
+.benefits {
+
+    padding: 80px 60px;
+}
+
+.dashboard-preview {
+
+    background-color: #E2E8F0;
+
+    padding: 80px 60px;
+}
